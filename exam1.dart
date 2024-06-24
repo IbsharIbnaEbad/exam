@@ -5,6 +5,7 @@ class Media {
 }
 
 class Song extends Media {
+  // by using this we can also write it into constructor
   String artist = 'devda';
 
   @override
